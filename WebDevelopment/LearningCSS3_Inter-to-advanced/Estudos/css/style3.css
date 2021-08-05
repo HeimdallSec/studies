@@ -1,0 +1,39 @@
+/********************
+Estilizando tabelas*/
+body {
+	font-family: "Tribuchet MS", Helvetica, sans-serif;
+}
+
+table {
+	width: 600px;
+	border-collapse: separate; /*collapse*/
+}
+
+th, td {
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado {
+	background: #efefef;
+}
+
+.numero {
+	text-align: right;
+}
+
+tr:hover {
+	background: #A8F4F2;
+}
+
+td:hover, th:hover {
+	background: #80F6F3;
+}

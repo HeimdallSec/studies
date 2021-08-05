@@ -1,0 +1,30 @@
+/******************
+Estilização Geral*/
+body {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+
+/**********************
+Estilização container*/
+#container {
+    border: 1px solid red;
+    width: 750px;
+    margin: 10px auto;
+}
+
+/********************
+Estilização nav-bar*/
+#marca {
+    border: 1px solid red;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+/*************************
+Estilização main-content*/
+#main-content {
+    border: 1px solid red;
+}

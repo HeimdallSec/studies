@@ -1,0 +1,310 @@
+/******************
+Estilização geral*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../images/fundo.png) repeat-x left top;
+}
+
+/**********************
+Estilização container*/
+#container {
+    width: 720px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+/*****************
+Estilização topo*/
+#topo {
+    height: 258px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+}
+
+#topo img {
+    padding-top: 25px;
+}
+
+/********************
+Estilização nav-bar*/
+#nav-bar {
+    margin-top: 20px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    float: left;
+    width: auto;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+#nav-bar li {
+    display: inline;
+    float: left;
+    width: auto;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(155, 10, 36);
+}
+
+#nav-bar li:hover {
+    background: rgb(188, 10, 36);
+}
+
+#nav-bar ul a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1em;
+    font-size: 13px;
+    padding: 13px 17px;
+    background: url(../images/divisor.png) repeat-y right top;
+}
+
+#nav-bar ul a:hover {
+    color: rgb(128, 2, 6);
+}
+
+body.home #nav-bar a#home,
+body.brasil #nav-bar a#brasil,
+body.internacional #nav-bar a#internacional,
+body.economia #nav-bar a#economia,
+body.fotos #nav-bar a#fotos {
+    color: #fff;
+    background: rgb(188, 10, 36);
+    cursor: text;
+}
+
+/*********************
+Estilização nav-left*/
+#nav-left {
+    float: left;
+    width: 170px;
+    background: url(../images/fundo-caixa.png) repeat left top;
+}
+
+#nav-left ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav-left ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    background: #fff;
+}
+
+#nav-left li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#nav-left li a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.404);
+    padding-left: 20px;
+    background: url(../images/marcador.png) no-repeat left center;
+}
+
+#nav-left h3 {
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    background: #294c71;
+}
+
+/*****************
+Estilização news*/
+#news {
+    float: left;
+    width: 150px;
+    margin: 8px 0px;
+    padding: 5px;
+    background: url(../images/fundo-caixa.png);
+}
+
+#news h3 {
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 8px;
+    color: #fff;
+    background: #294c71;
+}
+
+#news #form {
+    margin: 5px;
+    padding: 8px;
+    background: #fff;
+}
+
+#news label {
+    display: block;
+}
+
+#news input.email {
+    display: block;
+    border: 3px inset #367bc4;
+    width: 90%;
+    height: 25px;
+}
+
+#news input.submit {
+    width: 80%;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: rgb(155, 10, 36);
+}
+
+#news input.submit:hover {
+    color: black;
+}
+
+/********************
+Estilização content*/
+#content {
+    width: 550px; /*15px de espaçamento entre contents*/
+    float: right;
+}
+
+/* Aba "última entrevista" e "Destaque" */
+.content-itens {
+    float: left;
+    width: 255px;
+    padding: 5px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    background: url(../images/fundo-caixa.png);
+}
+
+.content-background {
+    margin: 0px;
+    padding: 5px;
+    background: #fff;
+}
+
+.content-itens h3 {
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0px;
+    color: #fff;
+    background: #294c71;
+}
+
+.content-itens h4 {
+    display: inline;
+    padding: 0px;
+    margin-left: 8px;
+    color: black;
+    background: rgb(155, 10, 36);
+}
+
+.content-itens .h4-black {
+    display: inline;
+    padding: 1px;
+    margin-left: 8px;
+    color: black;
+    background: rgb(155, 10, 36);
+}
+
+.content-itens .h4-white {
+    display: inline;
+    padding: 1px;
+    margin-left: 8px;
+    color: #fff;
+    background: rgb(155, 10, 36);
+}
+
+.content-itens img {
+    width: 225px;
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.content-background img {
+    width: 225px;
+    height: 149.766px;
+}
+
+.content-itens p, .content-itens a {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 15px;
+}
+
+.content-itens a {
+    color: rgb(128, 2, 6);
+}
+
+/* Aba "Mundo" e "Notícias recentes" */
+.content-more {
+    float: left;
+    width: 255px;
+    padding: 5px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    background: url(../images/fundo-caixa.png);
+}
+
+.content-more h3 {
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 12px;
+    color: #fff;
+    background: #294c71;
+}
+
+.content-more img {
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.content-more h6 {
+    margin: 0px;
+    padding: 0px;
+    color: #367bc4;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.content-more p, .content-more a {
+    display: block;
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.content-more hr {
+    margin: 5px;
+}
+
+.content-more-background {
+    margin: 0px;
+    padding: 5px;
+    background: #fff;
+}
+
+/*******************
+Estilizando footer*/
+#footer {
+    clear: both;
+    background: #244f7c;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
