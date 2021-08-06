@@ -84,5 +84,10 @@ int main(void) {
 
     imprime(pointer);
 
+    // Sem um asterisco, o ponteiro faz referência a um local da memória.
+    // Com um asterisco, o ponteiro faz referência ao valor naquele local da memória.
+    // Sempre use o mesmo tipo de ponteiro que as variáveis ​​que examina: floats para floats , ints para ints e assim por diante.
+    // Lembre-se: inicialize um ponteiro antes de usá-lo! Defina o ponteiro igual ao endereço de alguma variável na memória.
+
     return 0;
 }
