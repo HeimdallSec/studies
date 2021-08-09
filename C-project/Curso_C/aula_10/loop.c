@@ -14,6 +14,7 @@ int main(void) {
 
     // unsigned int i;
 
+    // iniciar variável com valor 0 para contagem.
     // for (unsigned i=0 ; i < 3; ) { // Inicialização da variável, comparação ou incremento não obrigatório!
     //     printf("O valor de i eh: %u\n", i);
     //     i++;
