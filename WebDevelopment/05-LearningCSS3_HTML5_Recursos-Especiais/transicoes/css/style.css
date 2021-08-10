@@ -1,0 +1,22 @@
+#caixa {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: yellow;
+    background: red;
+}
+
+#caixa:hover {
+    width: 400px;
+    background: yellow;
+    color: red;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    /* transition: width 3s, background 3s; */
+    transition: all 3s;
+}
+
+#caixa h2 {
+    padding: 120px;
+}
