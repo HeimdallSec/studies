@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap - formulários</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+ 
+
+    </head>    
+    <body style="margin-bottom: 200px;padding: 16px;">
+
+        <!-- formulários 
+        classe: form-control-<opcoes>
+        opções: sm, lg
+        -->
+        <form>
+            
+            <!-- caixas de texto -->
+            <div class="form-control-plaintext">
+                <label for="usuario">Usuário</label>
+                <input class="form-control" type="text" id="usuario" placeholder="Digite seu usuário">
+            </div>
+
+            <div class=" form-control-plaintext">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="Digite seu email" readonly aria-describedby="emailHelp">
+                <small class="form-text" id="emailHelp">Email será validado</small>
+            </div>
+
+            <!-- select -->
+            <div class="form-control-plaintext">
+                <label for="estados">Estados</label>
+                <select class="form-control " id="estados">
+                    <option>Acre</option>
+                    <option>Alagoas</option>
+                    <option>Amapá</option>
+                    <option>...</option>
+                </select>
+            </div>
+
+            <!-- textarea -->
+            <div class="form-control-plaintext">
+                <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="3"></textarea>
+            </div>
+
+            <!-- file input -->
+            <div class="input-group">
+                <label class="input-group-text" for="arquivo">Arquivo</label>
+                <input class="form-control" type="file" id="arquivo">
+            </div>
+
+
+            <!-- custom file input -->
+            <div class="input-group">
+                <input class="form-control" type="file" id="arquivo">
+                <label class="input-group-text">Selecione arquivo</label>
+            </div>
+            <br><br>
+
+            <!-- range -->
+            <div class="input-group">
+                <label id="range">Satisfação</label>
+                <input class="form-range" type="range" 
+                id="range" min="1" max="5">
+            </div>
+
+            <!-- button -->
+            <input class="btn btn-primary" type="submit" value="Salvar">
+
+        </form>
+        <br><br>
+
+        <!-- Formulário inline -->
+        <form class="row g-1">
+            <div class="col-auto">
+                <input class="form-control" type="text" placeholder="Digite seu usuário">
+            </div>
+            <div class="col-auto">
+                <input class="form-control" type="password" placeholder="Digite sua senha">
+            </div>
+            <div class="col-auto">
+                <input class="btn btn-outline-success" type="submit" value="Logar">
+            </div>
+        </form>
+        <br><br>
+
+        <!-- 
+        Validação de formulário 
+        Classes: is-valid, is-invalid, valid-feedback, invalid-feedback
+        -->
+        <form>
+            
+            <div class="form-control-plaintext">
+                <label class="input-" for="email-usuario">email</label>
+                <input class="form-control is-valid" type="text" id="email-usuario" placeholder="Digite seu e-mail">
+                <div class="valid-feedback">
+                    Email válido
+                </div>
+            </div>
+
+            <div class="form-control-plaintext">
+                <label for="senha-usuario">Senha</label>
+                <input class="form-control is-invalid" type="email" id="senha-usuario" placeholder="Digite sua senha">
+                <div class="invalid-feedback">
+                    Senha inválida
+                </div>
+            </div>
+
+            <input class="btn btn-warning" type="submit" value="Logar">
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+       
+        
+    </body>
+</html>
