@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap - nav-bar</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+ 
+
+    </head>    
+    <body style="margin-bottom: 200px;padding: 16px;">
+
+        <!-- Listas -->
+        <ul class="list-group">
+            <li class="list-group-item">Meu item de lista 1</li>
+            <li class="list-group-item active">Meu item de lista 2</li>
+            <li class="list-group-item">Meu item de lista 3</li>
+            <li class="list-group-item">Meu item de lista 4</li>
+        </ul>
+        <br><br>
+
+        <!-- Listas com classe flush -->
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Meu item de lista 1</li>
+            <li class="list-group-item">Meu item de lista 2</li>
+            <li class="list-group-item">Meu item de lista 3</li>
+            <li class="list-group-item active">Meu item de lista 4</li>
+        </ul>
+        <br><br>
+
+        <!-- Listas com links -->
+        <ul class="list-group">
+            <a href="#" class="list-group-item">Meu item de lista 1</a>
+            <a href="#" class="list-group-item">Meu item de lista 2</a>
+            <a href="#" class="list-group-item">Meu item de lista 3</a>
+            <a href="#" class="list-group-item active">Meu item de lista 4</a>
+        </ul>
+        <br><br>
+
+        <!-- Listas com classes contextuais 
+            classe: list-group-item-<opcoes>
+            opções: primary, secondary, success, info,
+                    warning, danger, light, dark
+        -->
+        <ul class="list-group">
+            <li class="list-group-item">Lista normal</li>
+            <li class="list-group-item list-group-item-primary">Lista primary</li>
+            <li class="list-group-item list-group-item-secondary">Lista secondary</li>
+            <li class="list-group-item list-group-item-success">Lista success</li>
+            <li class="list-group-item list-group-item-info">Lista info</li>
+            <li class="list-group-item list-group-item-warning">Lista warning</li>
+            <li class="list-group-item list-group-item-danger">Lista danger</li>
+            <li class="list-group-item list-group-item-light">Lista light</li>
+            <li class="list-group-item list-group-item-dark">Lista dark</li>
+        </ul>
+        <br><br>
+
+        <!-- Badge 
+            classe: bg-<opcoes> | text-<opcoes>
+            opções: primary, secondary, success, info,
+                    warning, danger, light, dark
+        -->
+        <ul class="list-group"> 
+            <li class="list-group-item">Meu item de lista 1</li>
+            <li class="list-group-item">Meu item de lista 2</li>
+            <li class="list-group-item">
+                Caixa entrada
+                <span class="badge bg-warning text-dark">120</span>
+            </li>
+            <li class="list-group-item">Meu item de lista 4</li>
+        </ul>
+        <br><br>
+
+        <!-- Breadcrumb -->
+
+        <!-- <div aria-label="breadcrumb"> -->
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        <!-- </div> -->
+
+        <!-- <div aria-label="breadcrumb"> -->
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        <!-- </div> -->
+
+        <!-- <div aria-label="breadcrumb"> -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">Sobre</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <a href="">Serviços</a>
+                </li>
+            </ol>
+        <!-- </div> -->
+
+        <!-- <div aria-label="breadcrumb"> -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">Usuários</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Desenvolvimento Web</li>
+            </ol>
+        <!-- </div> -->
+        <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        -->
+        
+    </body>
+</html>
